@@ -1,0 +1,3 @@
+MERGE INTO user_t (email, password_hash, name, tos_accepted)
+KEY (email)
+VALUES ('august@crud.business', X'243261243132243536326550366c3637517255333942764245717a322e78344c7a6861482e6b64504e697649754f79414339786162424c7a2e37632e', 'August Lilleaas', true);
